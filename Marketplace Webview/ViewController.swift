@@ -23,9 +23,9 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         overrideUserInterfaceStyle = .light
         
-        apikeyText.text = "f0627e97-48fb-456b-ba05-c20ce8c56105"
-        localeText.text = "es-rMX"
-        sessionIdText.text = "d/fvIRnSFf2gQslGnCVm/piBOgSxZWjUxzmT8+WeiMKwvF0tFj68wpi7uTSxO8tXZCPHy2kPwC+4afQUeRVNiXhh8AIQk27SsQq1xqm/etsossdJ0tEdsWg7L6jRou9bXCDGamE0mnE="
+        sessionIdText.text = "25b99cb9-ba99-4bc6-bf51-9c718b1eb23e"
+        localeText.text = "en-rUS"
+        apikeyText.text = "7608A3A2-4531-443C-8CEB-5A1DD6B42EE0"
 
         // Do any additional setup after loading the view.
     }
