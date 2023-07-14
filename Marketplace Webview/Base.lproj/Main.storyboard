@@ -18,7 +18,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jRm-nB-QsV">
-                                <rect key="frame" x="143" y="624" width="107" height="35"/>
+                                <rect key="frame" x="143" y="92" width="107" height="35"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="Iniciar SDK"/>
                                 <connections>
@@ -71,7 +71,7 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
-                            <constraint firstItem="jRm-nB-QsV" firstAttribute="top" secondItem="h2C-lc-P9w" secondAttribute="bottom" constant="150" id="3Wd-iG-6CD"/>
+                            <constraint firstItem="jRm-nB-QsV" firstAttribute="top" secondItem="SLc-Fm-bQZ" secondAttribute="top" constant="-80" id="3Wd-iG-6CD"/>
                             <constraint firstItem="SLc-Fm-bQZ" firstAttribute="leading" secondItem="9M7-ce-tTW" secondAttribute="leading" id="3dM-Mq-gkK"/>
                             <constraint firstItem="h2C-lc-P9w" firstAttribute="top" secondItem="bdE-YS-wVB" secondAttribute="bottom" constant="20" id="9a1-4O-x7L"/>
                             <constraint firstItem="bdE-YS-wVB" firstAttribute="leading" secondItem="SLc-Fm-bQZ" secondAttribute="leading" id="J99-wy-dQB"/>
@@ -142,7 +142,7 @@
                     </view>
                     <navigationItem key="navigationItem" id="b6H-KX-6ZV"/>
                     <connections>
-                        <outlet property="regresarButton" destination="tVJ-LJ-n0z" id="bGa-0D-vuP"/>
+                        <outlet property="regresarButton" destination="tVJ-LJ-n0z" id="JJ6-aY-oIv"/>
                         <outlet property="webView" destination="76L-jV-L3Q" id="Gnb-Uw-X8U"/>
                     </connections>
                 </viewController>

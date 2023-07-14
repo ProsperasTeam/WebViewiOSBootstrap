@@ -25,7 +25,7 @@ class ViewController: UIViewController {
         
         apikeyText.text = "f0627e97-48fb-456b-ba05-c20ce8c56105"
         localeText.text = "es-rMX"
-        sessionIdText.text = "d/fvIRnSFf2gQslGnCVm/piBOgSxZWjUxzmT8+WeiMKwvF0tFj68wpi7uTSxO8tXZCPHy2kPwC+4afQUeRVNiXhh8AIQk27SsQq1xqm/etsossdJ0tEdsWg7L6jRou9bXCDGamE0mnE="
+        sessionIdText.text = "d/fvIRnSFf2gQslGnCVm/pz7u8K5JTkEFY5w7KJ1rSawvF0tFj68wuL+Zuy2DrEkr8I/dqUj27iW0fg4RyMaU+jsqimIAsTVZnJjjYWpymAwyFRXa7rZyk8nz0jL1DWG"
 
         // Do any additional setup after loading the view.
     }

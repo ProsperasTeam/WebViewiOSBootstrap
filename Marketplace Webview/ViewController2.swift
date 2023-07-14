@@ -22,6 +22,9 @@ class ViewController2: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         overrideUserInterfaceStyle = .light
+        if (locale == "en-rUS"){
+            self.regresarButton.setTitle( "Back", for: .normal)
+        }
         
        /* print("mi info es apikey: \(apikey), locale: \(locale), sessionId: \(sessionId)")
         url = "https://creditos-web.prosperas.com?sessionid=\(sessionId)&apikey=\(apikey)&locale=\(locale)"
