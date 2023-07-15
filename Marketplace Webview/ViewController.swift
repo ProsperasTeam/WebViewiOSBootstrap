@@ -23,6 +23,7 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         overrideUserInterfaceStyle = .light
         
+
         sessionIdText.text = "25b99cb9-ba99-4bc6-bf51-9c718b1eb23e"
         localeText.text = "en-rUS"
         apikeyText.text = "7608A3A2-4531-443C-8CEB-5A1DD6B42EE0"
