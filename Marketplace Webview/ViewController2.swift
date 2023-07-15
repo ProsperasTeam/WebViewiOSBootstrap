@@ -56,7 +56,7 @@ class ViewController2: UIViewController {
     
     func abrirSDK(){
         print("mi info es apikey: \(apikey), locale: \(locale), sessionId: \(sessionId)")
-        url = "https://creditos-web.prosperas.com?sessionid=\(sessionId)&apikey=\(apikey)&locale=\(locale)"
+        url = "https://qamp.prosperas.com?sessionid=\(sessionId)&apikey=\(apikey)&locale=\(locale)"
         // Do any additional setup after loading the view.
         
         print("url recibida ::: \(url)")
