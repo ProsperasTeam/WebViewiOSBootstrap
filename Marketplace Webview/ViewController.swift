@@ -6,6 +6,7 @@
 //
 
 import UIKit
+import Marketplace
 
 class ViewController: UIViewController {
 
@@ -30,22 +31,11 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
 
-    public override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        print("mi segue identifier \(segue.identifier)")
-        if (segue.identifier == "WebSegue") {
-            let view2 = segue.destination as! ViewController2
-            //_ = sender as! [Int: Any?]
-            print("el apikey que voy a enviar \(apikeyText.text)")
-            print("el sessionId que voy a enviar \(sessionIdText.text)")
-            print("el locale que voy a enviar \(localeText.text)")
-            view2.apikey = apikeyText.text ?? ""
-            view2.sessionId = sessionIdText.text ?? ""
-            view2.locale = localeText.text ?? ""
-        }
-    }
-
     @IBAction func goWebView(_ sender: Any) {
-        self.performSegue(withIdentifier: "WebSegue", sender: nil)
+        
+        let vc = MarketplaceViewController()
+        vc.modalPresentationStyle = .fullScreen
+        self.present(vc, animated: true)
     }
 }
 
