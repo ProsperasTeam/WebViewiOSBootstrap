@@ -6,8 +6,7 @@ target 'Marketplace Webview' do
   use_frameworks!
 
   # Pods for Marketplace Webview
-  pod 'Marketplace', :git => 'https://github.com/ProsperasTeam/MarketplaceSDKiOS.git', :branch => 'release', :tag => '1.0.6'
-  #LOCAL ONLY pod 'Marketplace', :path => '/Users/angelovescio/MarketplaceSDKiOS'
+  pod 'Marketplace', :git => 'https://github.com/ProsperasTeam/MarketplaceSDKiOS.git', :branch => 'release', :tag => '1.0.7'
 
   target 'Marketplace WebviewTests' do
     inherit! :search_paths
