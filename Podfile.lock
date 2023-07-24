@@ -1,24 +1,24 @@
 PODS:
-  - Marketplace (1.0.6)
+  - Marketplace (1.0.7)
 
 DEPENDENCIES:
-  - Marketplace (from `https://github.com/ProsperasTeam/MarketplaceSDKiOS.git`, branch `release`, tag `1.0.6`)
+  - Marketplace (from `https://github.com/ProsperasTeam/MarketplaceSDKiOS.git`, branch `release`, tag `1.0.7`)
 
 EXTERNAL SOURCES:
   Marketplace:
     :branch: release
     :git: https://github.com/ProsperasTeam/MarketplaceSDKiOS.git
-    :tag: 1.0.6
+    :tag: 1.0.7
 
 CHECKOUT OPTIONS:
   Marketplace:
-    :commit: e17c959a3bb362a34dc7e7bff70213eca7217f60
+    :commit: d631236cd4129c5730a05efaae91ee98e7d331b7
     :git: https://github.com/ProsperasTeam/MarketplaceSDKiOS.git
-    :tag: 1.0.6
+    :tag: 1.0.7
 
 SPEC CHECKSUMS:
-  Marketplace: f73aacdcb4e97842b85408f059162a481a4c4d16
+  Marketplace: 5aae2b4cdc662b99cfd16f28687597901536f49d
 
-PODFILE CHECKSUM: 44e4906abcdcad06c23ec003576e46b064aace68
+PODFILE CHECKSUM: f595b7aa32b002533296e28853b5bb5973f2c5e4
 
 COCOAPODS: 1.12.1

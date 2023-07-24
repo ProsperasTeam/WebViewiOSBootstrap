@@ -38,6 +38,7 @@ class ViewController: UIViewController {
         vc.apikey  = apikeyText.text ?? "Valid API Key"
         vc.locale = localeText.text ?? "Valid Locale such as es-rMX or en-rUS"
         vc.urlBase = "https://creditos-web.prosperas.com"
+        vc.setNativeButtonColor(rgb: 0xBE5300)
         vc.modalPresentationStyle = .fullScreen
         self.present(vc, animated: true)
     }
