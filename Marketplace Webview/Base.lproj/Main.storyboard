@@ -108,41 +108,54 @@
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <wkWebView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="76L-jV-L3Q">
-                                <rect key="frame" x="0.0" y="110" width="393" height="708"/>
-                                <color key="backgroundColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <wkWebViewConfiguration key="configuration">
-                                    <audiovisualMediaTypes key="mediaTypesRequiringUserActionForPlayback" none="YES"/>
-                                    <wkPreferences key="preferences"/>
-                                </wkWebViewConfiguration>
-                            </wkWebView>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tVJ-LJ-n0z">
-                                <rect key="frame" x="16" y="60" width="103" height="35"/>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="zxz-oU-b8j">
+                                <rect key="frame" x="0.0" y="59" width="393" height="759"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tVJ-LJ-n0z">
+                                        <rect key="frame" x="68" y="15" width="103" height="35"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="103" id="sRi-u7-CRR"/>
+                                        </constraints>
+                                        <color key="tintColor" red="0.2068423033" green="0.18318408729999999" blue="0.19092428680000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="plain" title="Regresar"/>
+                                        <connections>
+                                            <action selector="regresar:" destination="pTR-Ve-Byj" eventType="touchUpInside" id="aLu-g0-QzS"/>
+                                        </connections>
+                                    </button>
+                                    <wkWebView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="76L-jV-L3Q">
+                                        <rect key="frame" x="0.0" y="65" width="393" height="694"/>
+                                        <color key="backgroundColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <wkWebViewConfiguration key="configuration">
+                                            <audiovisualMediaTypes key="mediaTypesRequiringUserActionForPlayback" none="YES"/>
+                                            <wkPreferences key="preferences"/>
+                                        </wkWebViewConfiguration>
+                                    </wkWebView>
+                                </subviews>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="103" id="sRi-u7-CRR"/>
+                                    <constraint firstAttribute="trailing" secondItem="76L-jV-L3Q" secondAttribute="trailing" id="8fc-8f-sO6"/>
+                                    <constraint firstItem="tVJ-LJ-n0z" firstAttribute="top" secondItem="zxz-oU-b8j" secondAttribute="top" constant="15" id="FqO-yR-Dpd"/>
+                                    <constraint firstItem="76L-jV-L3Q" firstAttribute="leading" secondItem="zxz-oU-b8j" secondAttribute="leading" id="NXd-I6-2Tp"/>
+                                    <constraint firstAttribute="bottom" secondItem="76L-jV-L3Q" secondAttribute="bottom" id="Ryf-bd-2gT"/>
+                                    <constraint firstItem="76L-jV-L3Q" firstAttribute="top" secondItem="tVJ-LJ-n0z" secondAttribute="bottom" constant="15" id="gM5-Dg-ApL"/>
+                                    <constraint firstItem="tVJ-LJ-n0z" firstAttribute="leading" secondItem="zxz-oU-b8j" secondAttribute="leading" constant="68" id="qSo-3z-K8x"/>
                                 </constraints>
-                                <color key="tintColor" red="0.2068423033" green="0.18318408729999999" blue="0.19092428680000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain" title="Regresar"/>
-                                <connections>
-                                    <action selector="regresar:" destination="pTR-Ve-Byj" eventType="touchUpInside" id="aLu-g0-QzS"/>
-                                </connections>
-                            </button>
+                            </view>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="JOq-GA-gY8"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
-                            <constraint firstItem="JOq-GA-gY8" firstAttribute="trailing" secondItem="76L-jV-L3Q" secondAttribute="trailing" id="5Ty-i7-g7t"/>
-                            <constraint firstItem="tVJ-LJ-n0z" firstAttribute="top" secondItem="dV2-tB-JWR" secondAttribute="top" constant="60" id="5iB-Tu-Dsx"/>
-                            <constraint firstItem="JOq-GA-gY8" firstAttribute="bottom" secondItem="76L-jV-L3Q" secondAttribute="bottom" id="Dre-2n-4Ie"/>
-                            <constraint firstItem="76L-jV-L3Q" firstAttribute="leading" secondItem="JOq-GA-gY8" secondAttribute="leading" id="jPl-5w-DvJ"/>
-                            <constraint firstItem="tVJ-LJ-n0z" firstAttribute="leading" secondItem="dV2-tB-JWR" secondAttribute="leadingMargin" id="pW7-2b-jJV"/>
-                            <constraint firstItem="76L-jV-L3Q" firstAttribute="top" secondItem="tVJ-LJ-n0z" secondAttribute="bottom" constant="15" id="pcx-aT-Xfr"/>
+                            <constraint firstItem="JOq-GA-gY8" firstAttribute="bottom" secondItem="zxz-oU-b8j" secondAttribute="bottom" id="QPr-Pu-fky"/>
+                            <constraint firstItem="JOq-GA-gY8" firstAttribute="trailing" secondItem="zxz-oU-b8j" secondAttribute="trailing" id="YmT-Xx-jcO"/>
+                            <constraint firstItem="zxz-oU-b8j" firstAttribute="leading" secondItem="JOq-GA-gY8" secondAttribute="leading" id="bxL-O5-3wg"/>
+                            <constraint firstItem="zxz-oU-b8j" firstAttribute="top" secondItem="JOq-GA-gY8" secondAttribute="top" id="nZD-Gt-Zuq"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="b6H-KX-6ZV"/>
                     <connections>
                         <outlet property="regresarButton" destination="tVJ-LJ-n0z" id="JJ6-aY-oIv"/>
+                        <outlet property="view2" destination="zxz-oU-b8j" id="bcs-xW-661"/>
                         <outlet property="webView" destination="76L-jV-L3Q" id="Gnb-Uw-X8U"/>
                     </connections>
                 </viewController>

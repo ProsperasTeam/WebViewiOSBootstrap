@@ -16,9 +16,11 @@ class ViewController2: UIViewController {
     var locale = ""
     var url = "https://google.com"
     
+    @IBOutlet weak var view2: UIView!
     @IBOutlet weak var regresarButton: UIButton!
     @IBOutlet weak var webView: WKWebView!
     
+    private final var sizeMetric : Int = 6
     
     
     override open func loadView() {
@@ -32,12 +34,13 @@ class ViewController2: UIViewController {
         webConfiguration.allowsPictureInPictureMediaPlayback = true
         webConfiguration.mediaTypesRequiringUserActionForPlayback = .all
         webConfiguration.requiresUserActionForMediaPlayback = true
-        webView = WKWebView(frame: .zero, configuration: webConfiguration)
-        webView.sizeToFit()
-        webView.backgroundColor = .black
-        webView.isOpaque = false
-        //self.webViewContainer.addSubview(webView)
-        view = webView
+        
+        webView = WKWebView(frame:  CGRect(x: 0.0, y: 60, width: self.view.frame.size.width, height: self.view.frame.height), configuration: webConfiguration)
+       // webView.sizeToFit()
+        //webView.backgroundColor = .black
+        //webView.isOpaque = false
+        self.view2.addSubview(webView)
+        view2 = webView
 
     }
     
