@@ -1,0 +1,6 @@
+framework module Marketplace {
+  umbrella header "Marketplace-umbrella.h"
+
+  export *
+  module * { export * }
+}

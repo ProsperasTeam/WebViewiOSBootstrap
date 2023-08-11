@@ -1,0 +1,6 @@
+framework module Pods_Marketplace_Webview_Marketplace_WebviewUITests {
+  umbrella header "Pods-Marketplace Webview-Marketplace WebviewUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

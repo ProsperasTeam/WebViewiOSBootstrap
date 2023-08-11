@@ -1,0 +1,6 @@
+framework module Pods_Marketplace_Webview {
+  umbrella header "Pods-Marketplace Webview-umbrella.h"
+
+  export *
+  module * { export * }
+}
