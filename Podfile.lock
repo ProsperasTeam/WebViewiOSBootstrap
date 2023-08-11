@@ -12,12 +12,12 @@ EXTERNAL SOURCES:
 
 CHECKOUT OPTIONS:
   Marketplace:
-    :commit: 4a622f2b6fbc15aea5f58a1f396efe3b2c11956a
+    :commit: f952371408eccfc22c7ca1ee34d70212d2fb5be4
     :git: https://github.com/ProsperasTeam/MarketplaceSDKiOS.git
     :tag: 1.0.7
 
 SPEC CHECKSUMS:
-  Marketplace: f73aacdcb4e97842b85408f059162a481a4c4d16
+  Marketplace: 47931efb3fab270ad5aba359c9e7513ff98fc9ed
 
 PODFILE CHECKSUM: 83460b029b153b481c523aca071c87bbfa31ef94
 

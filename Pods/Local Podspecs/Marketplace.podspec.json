@@ -23,6 +23,7 @@
   ],
   "exclude_files": "Classes/Exclude",
   "info_plist": {
-    "NSCameraUsageDescription": "Necessary for uploading user documents and photos to their storage area"
+    "NSCameraUsageDescription": "Necessary for uploading user documents and photos to their storage area",
+    "NSLocationWhenInUseUsageDescription": "Necessary for digital signature"
   }
 }
