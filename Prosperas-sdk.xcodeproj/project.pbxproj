@@ -1,0 +1,429 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		638B3C084A9488463800B13A /* Pods_Prosperas_sdk.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 42210FE953D01842A8FDBFEC /* Pods_Prosperas_sdk.framework */; };
+		8767CEBC2A843ACE00CC4A0F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8767CEBB2A843ACE00CC4A0F /* LaunchScreen.storyboard */; };
+		8767CEBE2A84404000CC4A0F /* SDKView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8767CEBD2A84404000CC4A0F /* SDKView.swift */; };
+		8767CEC02A8441E300CC4A0F /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8767CEBF2A8441E300CC4A0F /* Extensions.swift */; };
+		87A444DE2A8426C40072ECFD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87A444DD2A8426C40072ECFD /* AppDelegate.swift */; };
+		87A444E02A8426C40072ECFD /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87A444DF2A8426C40072ECFD /* SceneDelegate.swift */; };
+		87A444E22A8426C40072ECFD /* SDKController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87A444E12A8426C40072ECFD /* SDKController.swift */; };
+		87A444E72A8426C50072ECFD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 87A444E62A8426C50072ECFD /* Assets.xcassets */; };
+		87B797582A8961C80054B51C /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 87B797572A8961C80054B51C /* Localizable.strings */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0A6B227C10A43D7924234649 /* Pods-Prosperas-sdk.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Prosperas-sdk.release.xcconfig"; path = "Target Support Files/Pods-Prosperas-sdk/Pods-Prosperas-sdk.release.xcconfig"; sourceTree = "<group>"; };
+		42210FE953D01842A8FDBFEC /* Pods_Prosperas_sdk.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Prosperas_sdk.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8767CEBB2A843ACE00CC4A0F /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8767CEBD2A84404000CC4A0F /* SDKView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SDKView.swift; sourceTree = "<group>"; };
+		8767CEBF2A8441E300CC4A0F /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		87A444DA2A8426C40072ECFD /* Prosperas-sdk.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Prosperas-sdk.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		87A444DD2A8426C40072ECFD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		87A444DF2A8426C40072ECFD /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		87A444E12A8426C40072ECFD /* SDKController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SDKController.swift; sourceTree = "<group>"; };
+		87A444E62A8426C50072ECFD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		87A444EB2A8426C50072ECFD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		87B797572A8961C80054B51C /* Localizable.strings */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; path = Localizable.strings; sourceTree = "<group>"; };
+		A55D1BDE70525DBA4F5E20C7 /* Pods-Prosperas-sdk.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Prosperas-sdk.debug.xcconfig"; path = "Target Support Files/Pods-Prosperas-sdk/Pods-Prosperas-sdk.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		87A444D72A8426C40072ECFD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				638B3C084A9488463800B13A /* Pods_Prosperas_sdk.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		81B4F17E103B42B6E04CACF1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A55D1BDE70525DBA4F5E20C7 /* Pods-Prosperas-sdk.debug.xcconfig */,
+				0A6B227C10A43D7924234649 /* Pods-Prosperas-sdk.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		87A444D12A8426C40072ECFD = {
+			isa = PBXGroup;
+			children = (
+				87A444DC2A8426C40072ECFD /* Prosperas-sdk */,
+				87A444DB2A8426C40072ECFD /* Products */,
+				81B4F17E103B42B6E04CACF1 /* Pods */,
+				E7103DA2BE69FE61CEA3639A /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		87A444DB2A8426C40072ECFD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				87A444DA2A8426C40072ECFD /* Prosperas-sdk.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		87A444DC2A8426C40072ECFD /* Prosperas-sdk */ = {
+			isa = PBXGroup;
+			children = (
+				87A444DD2A8426C40072ECFD /* AppDelegate.swift */,
+				87A444DF2A8426C40072ECFD /* SceneDelegate.swift */,
+				8767CEBD2A84404000CC4A0F /* SDKView.swift */,
+				87A444E12A8426C40072ECFD /* SDKController.swift */,
+				87A444E62A8426C50072ECFD /* Assets.xcassets */,
+				8767CEBB2A843ACE00CC4A0F /* LaunchScreen.storyboard */,
+				87A444EB2A8426C50072ECFD /* Info.plist */,
+				8767CEBF2A8441E300CC4A0F /* Extensions.swift */,
+				87B797572A8961C80054B51C /* Localizable.strings */,
+			);
+			path = "Prosperas-sdk";
+			sourceTree = "<group>";
+		};
+		E7103DA2BE69FE61CEA3639A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				42210FE953D01842A8FDBFEC /* Pods_Prosperas_sdk.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		87A444D92A8426C40072ECFD /* Prosperas-sdk */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 87A444EE2A8426C50072ECFD /* Build configuration list for PBXNativeTarget "Prosperas-sdk" */;
+			buildPhases = (
+				4DF825DB0185E7305304CE9D /* [CP] Check Pods Manifest.lock */,
+				87A444D62A8426C40072ECFD /* Sources */,
+				87A444D72A8426C40072ECFD /* Frameworks */,
+				87A444D82A8426C40072ECFD /* Resources */,
+				EE879429BB9038AEADEA2CA3 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Prosperas-sdk";
+			productName = "Prosperas-sdk";
+			productReference = 87A444DA2A8426C40072ECFD /* Prosperas-sdk.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		87A444D22A8426C40072ECFD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					87A444D92A8426C40072ECFD = {
+						CreatedOnToolsVersion = 14.3;
+					};
+				};
+			};
+			buildConfigurationList = 87A444D52A8426C40072ECFD /* Build configuration list for PBXProject "Prosperas-sdk" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				es,
+			);
+			mainGroup = 87A444D12A8426C40072ECFD;
+			productRefGroup = 87A444DB2A8426C40072ECFD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				87A444D92A8426C40072ECFD /* Prosperas-sdk */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		87A444D82A8426C40072ECFD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8767CEBC2A843ACE00CC4A0F /* LaunchScreen.storyboard in Resources */,
+				87B797582A8961C80054B51C /* Localizable.strings in Resources */,
+				87A444E72A8426C50072ECFD /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4DF825DB0185E7305304CE9D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Prosperas-sdk-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EE879429BB9038AEADEA2CA3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Prosperas-sdk/Pods-Prosperas-sdk-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Prosperas-sdk/Pods-Prosperas-sdk-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Prosperas-sdk/Pods-Prosperas-sdk-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		87A444D62A8426C40072ECFD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8767CEC02A8441E300CC4A0F /* Extensions.swift in Sources */,
+				87A444E22A8426C40072ECFD /* SDKController.swift in Sources */,
+				87A444DE2A8426C40072ECFD /* AppDelegate.swift in Sources */,
+				8767CEBE2A84404000CC4A0F /* SDKView.swift in Sources */,
+				87A444E02A8426C40072ECFD /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		87A444EC2A8426C50072ECFD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		87A444ED2A8426C50072ECFD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		87A444EF2A8426C50072ECFD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A55D1BDE70525DBA4F5E20C7 /* Pods-Prosperas-sdk.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 47TMN9XR2Y;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Prosperas-sdk/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
+				INFOPLIST_KEY_UIRequiresFullScreen = NO;
+				INFOPLIST_KEY_UIStatusBarStyle = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.Prosperas-sdk";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		87A444F02A8426C50072ECFD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0A6B227C10A43D7924234649 /* Pods-Prosperas-sdk.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 47TMN9XR2Y;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Prosperas-sdk/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
+				INFOPLIST_KEY_UIRequiresFullScreen = NO;
+				INFOPLIST_KEY_UIStatusBarStyle = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.Prosperas-sdk";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		87A444D52A8426C40072ECFD /* Build configuration list for PBXProject "Prosperas-sdk" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				87A444EC2A8426C50072ECFD /* Debug */,
+				87A444ED2A8426C50072ECFD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		87A444EE2A8426C50072ECFD /* Build configuration list for PBXNativeTarget "Prosperas-sdk" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				87A444EF2A8426C50072ECFD /* Debug */,
+				87A444F02A8426C50072ECFD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 87A444D22A8426C40072ECFD /* Project object */;
+}

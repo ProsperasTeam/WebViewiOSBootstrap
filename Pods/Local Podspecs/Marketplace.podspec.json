@@ -1,0 +1,28 @@
+{
+  "name": "Marketplace",
+  "version": "1.0.8",
+  "summary": "This is the Prosperas Marketplace SDK",
+  "description": "This is the Prosperas Marketplace SDK",
+  "homepage": "https://prosperas.com",
+  "license": {
+    "type": "MIT",
+    "file": "FILE_LICENSE"
+  },
+  "authors": {
+    "vesh": "avescio@prosperas.com"
+  },
+  "platforms": {
+    "ios": "13.0"
+  },
+  "source": {
+    "git": "https://github.com/ProsperasTeam/MarketplaceSDKiOS.git"
+  },
+  "source_files": [
+    "Classes/**/*.{swift}",
+    "Classes/*.{swift}"
+  ],
+  "exclude_files": "Classes/Exclude",
+  "info_plist": {
+    "NSCameraUsageDescription": "Necessary for uploading user documents and photos to their storage area"
+  }
+}
