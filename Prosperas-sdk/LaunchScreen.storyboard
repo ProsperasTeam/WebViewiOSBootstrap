@@ -3,8 +3,8 @@
     <device id="retina6_12" orientation="portrait" appearance="dark"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21678"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
-        <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -16,26 +16,20 @@
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="9" translatesAutoresizingMaskIntoConstraints="NO" id="obG-Y5-kRd">
-                                <rect key="frame" x="0.0" y="798.66666666666663" width="393" height="0.0"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Prosperas WebView" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Q6U-Nl-yIV">
+                                <rect key="frame" x="50" y="311" width="293" height="194"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="34"/>
+                                <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="prosperas-splash-image" translatesAutoresizingMaskIntoConstraints="NO" id="8Ws-UR-ajp">
-                                <rect key="frame" x="38" y="165" width="317" height="548.66666666666663"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" secondItem="8Ws-UR-ajp" secondAttribute="height" multiplier="305:528" id="it1-rS-H4j"/>
-                                </constraints>
-                            </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="Bcu-3y-fUS"/>
-                        <color key="backgroundColor" systemColor="tertiaryLabelColor"/>
+                        <color key="backgroundColor" name="AccentColor"/>
                         <constraints>
-                            <constraint firstItem="8Ws-UR-ajp" firstAttribute="leading" secondItem="Bcu-3y-fUS" secondAttribute="leading" constant="38" id="0Cn-tc-UAE"/>
-                            <constraint firstItem="8Ws-UR-ajp" firstAttribute="top" secondItem="Bcu-3y-fUS" secondAttribute="top" constant="106" id="MEy-rs-IvG"/>
-                            <constraint firstItem="Bcu-3y-fUS" firstAttribute="trailing" secondItem="8Ws-UR-ajp" secondAttribute="trailing" constant="38" id="qgn-tq-bCO"/>
-                            <constraint firstItem="obG-Y5-kRd" firstAttribute="top" secondItem="8Ws-UR-ajp" secondAttribute="bottom" constant="85" id="r87-Sl-jom"/>
+                            <constraint firstItem="Q6U-Nl-yIV" firstAttribute="top" secondItem="Bcu-3y-fUS" secondAttribute="top" constant="252" id="Qeb-wJ-Kzr"/>
+                            <constraint firstItem="Q6U-Nl-yIV" firstAttribute="leading" secondItem="Bcu-3y-fUS" secondAttribute="leading" constant="50" id="fzM-G7-ufT"/>
+                            <constraint firstItem="Bcu-3y-fUS" firstAttribute="trailing" secondItem="Q6U-Nl-yIV" secondAttribute="trailing" constant="50" id="iS6-LE-S6j"/>
+                            <constraint firstItem="Bcu-3y-fUS" firstAttribute="bottom" secondItem="Q6U-Nl-yIV" secondAttribute="bottom" constant="313" id="qRc-zP-j3g"/>
                         </constraints>
                     </view>
                 </viewController>
@@ -45,9 +39,8 @@
         </scene>
     </scenes>
     <resources>
-        <image name="prosperas-splash-image" width="527" height="523"/>
-        <systemColor name="tertiaryLabelColor">
-            <color red="0.23529411764705882" green="0.23529411764705882" blue="0.2627450980392157" alpha="0.29803921568627451" colorSpace="custom" customColorSpace="sRGB"/>
-        </systemColor>
+        <namedColor name="AccentColor">
+            <color red="0.0" green="0.46000000000000002" blue="0.89000000000000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
     </resources>
 </document>

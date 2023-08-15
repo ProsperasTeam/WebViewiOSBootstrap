@@ -29,20 +29,22 @@
 /* Begin PBXFileReference section */
 		06F1A8C670FF41C75E9672B77A919A6B /* Marketplace.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Marketplace.swift; path = Classes/Marketplace.swift; sourceTree = "<group>"; };
 		2DF82E5BA1BFD5EE7266FA09FF015B99 /* Marketplace-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Marketplace-umbrella.h"; sourceTree = "<group>"; };
-		31C307F5EFF3AB74853F29151921888F /* Pods-Prosperas-sdk */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-Prosperas-sdk"; path = Pods_Prosperas_sdk.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		31C307F5EFF3AB74853F29151921888F /* Pods_Prosperas_sdk.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Prosperas_sdk.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		340F1E7076433213908AA1744C37F01F /* Marketplace.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Marketplace.debug.xcconfig; sourceTree = "<group>"; };
 		4933EC43470E5035BE707C4494DB2270 /* Pods-Prosperas-sdk-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Prosperas-sdk-acknowledgements.plist"; sourceTree = "<group>"; };
 		4D3F2D2517777BBEE27D2E8946E3BF0B /* Pods-Prosperas-sdk-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Prosperas-sdk-acknowledgements.markdown"; sourceTree = "<group>"; };
 		5251CC60BCC0FD33EF22311B153C4083 /* Marketplace-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Marketplace-prefix.pch"; sourceTree = "<group>"; };
 		57B80CA829C035B15BF1862E5CC0BB59 /* Pods-Prosperas-sdk-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Prosperas-sdk-dummy.m"; sourceTree = "<group>"; };
-		5A1466BC9D1A544EA716BAEB4A39E925 /* Marketplace */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Marketplace; path = Marketplace.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5A1466BC9D1A544EA716BAEB4A39E925 /* Marketplace.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Marketplace.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		760F28B8FCA50C87D16606633AD917E3 /* Marketplace.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Marketplace.release.xcconfig; sourceTree = "<group>"; };
 		85AFCD6AAABEC823FCC2602EDE514FFF /* Pods-Prosperas-sdk-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Prosperas-sdk-umbrella.h"; sourceTree = "<group>"; };
+		87B7975D2A8B9C6F0054B51C /* gitignore.txt */ = {isa = PBXFileReference; lastKnownFileType = text; name = gitignore.txt; path = ../../../../../../Downloads/gitignore.txt; sourceTree = "<group>"; };
+		87B7975E2A8B9C800054B51C /* gitignore.txt */ = {isa = PBXFileReference; lastKnownFileType = text; name = gitignore.txt; path = ../gitignore.txt; sourceTree = "<group>"; };
 		8C927546601EBE09117A2F1FF9CA26F4 /* Pods-Prosperas-sdk-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Prosperas-sdk-Info.plist"; sourceTree = "<group>"; };
 		8D64B7ED5A70645AB15BC94D11ECC6A3 /* Pods-Prosperas-sdk.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Prosperas-sdk.debug.xcconfig"; sourceTree = "<group>"; };
 		97D6BE459E883034E44983C360AAC1B3 /* Marketplace-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Marketplace-Info.plist"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A9280B76FC7E83E49FD4E45BC3E0A6FB /* Pods-Prosperas-sdk.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Prosperas-sdk.release.xcconfig"; sourceTree = "<group>"; };
 		BFC07320B92250BBB0041C2F0CE0BF2B /* Marketplace-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Marketplace-dummy.m"; sourceTree = "<group>"; };
 		E0D6278032C9ACAA082AB8A074A621FD /* Pods-Prosperas-sdk.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Prosperas-sdk.modulemap"; sourceTree = "<group>"; };
@@ -106,8 +108,8 @@
 		5B7A0B873779040E7059E86A689234EA /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				5A1466BC9D1A544EA716BAEB4A39E925 /* Marketplace */,
-				31C307F5EFF3AB74853F29151921888F /* Pods-Prosperas-sdk */,
+				5A1466BC9D1A544EA716BAEB4A39E925 /* Marketplace.framework */,
+				31C307F5EFF3AB74853F29151921888F /* Pods_Prosperas_sdk.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -130,6 +132,7 @@
 		80BF633EE1E2AD9F4EA62563AA526142 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
+				87B7975E2A8B9C800054B51C /* gitignore.txt */,
 				0F45B2FF0E1AD1A6F1A27BB9553BD13E /* Pods-Prosperas-sdk */,
 			);
 			name = "Targets Support Files";
@@ -138,6 +141,7 @@
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
+				87B7975D2A8B9C6F0054B51C /* gitignore.txt */,
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
 				129225E1EFF2CD52021D8178FB5E2C6A /* Pods */,
@@ -160,7 +164,6 @@
 				06F1A8C670FF41C75E9672B77A919A6B /* Marketplace.swift */,
 				72F1D79C9CC2B5D28ECFF9489FBDFFAD /* Support Files */,
 			);
-			name = Marketplace;
 			path = Marketplace;
 			sourceTree = "<group>";
 		};
@@ -201,7 +204,7 @@
 			);
 			name = Marketplace;
 			productName = Marketplace;
-			productReference = 5A1466BC9D1A544EA716BAEB4A39E925 /* Marketplace */;
+			productReference = 5A1466BC9D1A544EA716BAEB4A39E925 /* Marketplace.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		AA32DE7151B65383AD546BB8F4AA8030 /* Pods-Prosperas-sdk */ = {
@@ -220,7 +223,7 @@
 			);
 			name = "Pods-Prosperas-sdk";
 			productName = Pods_Prosperas_sdk;
-			productReference = 31C307F5EFF3AB74853F29151921888F /* Pods-Prosperas-sdk */;
+			productReference = 31C307F5EFF3AB74853F29151921888F /* Pods_Prosperas_sdk.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -229,8 +232,9 @@
 		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				BuildIndependentTargetsInParallel = YES;
 				LastSwiftUpdateCheck = 1300;
-				LastUpgradeCheck = 1300;
+				LastUpgradeCheck = 1430;
 			};
 			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 14.0";
@@ -333,6 +337,7 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
@@ -356,7 +361,6 @@
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				STRIP_INSTALLED_PRODUCT = NO;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
@@ -370,14 +374,13 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CODE_SIGN_IDENTITY = "";
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = YES;
 				INFOPLIST_FILE = "Target Support Files/Pods-Prosperas-sdk/Pods-Prosperas-sdk-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
@@ -388,6 +391,8 @@
 				);
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-Prosperas-sdk/Pods-Prosperas-sdk.modulemap";
+				MODULE_VERIFIER_SUPPORTED_LANGUAGES = "objective-c objective-c++";
+				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu11 gnu++14";
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
@@ -406,14 +411,13 @@
 			baseConfigurationReference = 340F1E7076433213908AA1744C37F01F /* Marketplace.debug.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CODE_SIGN_IDENTITY = "";
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = YES;
 				GCC_PREFIX_HEADER = "Target Support Files/Marketplace/Marketplace-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/Marketplace/Marketplace-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
@@ -424,6 +428,8 @@
 					"@loader_path/Frameworks",
 				);
 				MODULEMAP_FILE = "Target Support Files/Marketplace/Marketplace.modulemap";
+				MODULE_VERIFIER_SUPPORTED_LANGUAGES = "objective-c objective-c++";
+				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu11 gnu++14";
 				PRODUCT_MODULE_NAME = Marketplace;
 				PRODUCT_NAME = Marketplace;
 				SDKROOT = iphoneos;
@@ -441,14 +447,13 @@
 			baseConfigurationReference = 760F28B8FCA50C87D16606633AD917E3 /* Marketplace.release.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CODE_SIGN_IDENTITY = "";
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = YES;
 				GCC_PREFIX_HEADER = "Target Support Files/Marketplace/Marketplace-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/Marketplace/Marketplace-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
@@ -459,6 +464,8 @@
 					"@loader_path/Frameworks",
 				);
 				MODULEMAP_FILE = "Target Support Files/Marketplace/Marketplace.modulemap";
+				MODULE_VERIFIER_SUPPORTED_LANGUAGES = "objective-c objective-c++";
+				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu11 gnu++14";
 				PRODUCT_MODULE_NAME = Marketplace;
 				PRODUCT_NAME = Marketplace;
 				SDKROOT = iphoneos;
@@ -478,14 +485,13 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CODE_SIGN_IDENTITY = "";
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = YES;
 				INFOPLIST_FILE = "Target Support Files/Pods-Prosperas-sdk/Pods-Prosperas-sdk-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
@@ -496,6 +502,8 @@
 				);
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-Prosperas-sdk/Pods-Prosperas-sdk.modulemap";
+				MODULE_VERIFIER_SUPPORTED_LANGUAGES = "objective-c objective-c++";
+				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu11 gnu++14";
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
@@ -545,6 +553,7 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -564,7 +573,6 @@
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				STRIP_INSTALLED_PRODUCT = NO;
 				SWIFT_COMPILATION_MODE = wholemodule;
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				SWIFT_VERSION = 5.0;

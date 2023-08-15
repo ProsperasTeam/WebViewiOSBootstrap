@@ -14,8 +14,8 @@
 		87A444DE2A8426C40072ECFD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87A444DD2A8426C40072ECFD /* AppDelegate.swift */; };
 		87A444E02A8426C40072ECFD /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87A444DF2A8426C40072ECFD /* SceneDelegate.swift */; };
 		87A444E22A8426C40072ECFD /* SDKController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87A444E12A8426C40072ECFD /* SDKController.swift */; };
-		87A444E72A8426C50072ECFD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 87A444E62A8426C50072ECFD /* Assets.xcassets */; };
 		87B797582A8961C80054B51C /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 87B797572A8961C80054B51C /* Localizable.strings */; };
+		87B797622A8B9FE80054B51C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 87B797612A8B9FE70054B51C /* Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,9 +28,9 @@
 		87A444DD2A8426C40072ECFD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		87A444DF2A8426C40072ECFD /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		87A444E12A8426C40072ECFD /* SDKController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SDKController.swift; sourceTree = "<group>"; };
-		87A444E62A8426C50072ECFD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		87A444EB2A8426C50072ECFD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		87B797572A8961C80054B51C /* Localizable.strings */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; path = Localizable.strings; sourceTree = "<group>"; };
+		87B797612A8B9FE70054B51C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A55D1BDE70525DBA4F5E20C7 /* Pods-Prosperas-sdk.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Prosperas-sdk.debug.xcconfig"; path = "Target Support Files/Pods-Prosperas-sdk/Pods-Prosperas-sdk.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -79,8 +79,8 @@
 				87A444DD2A8426C40072ECFD /* AppDelegate.swift */,
 				87A444DF2A8426C40072ECFD /* SceneDelegate.swift */,
 				8767CEBD2A84404000CC4A0F /* SDKView.swift */,
+				87B797612A8B9FE70054B51C /* Assets.xcassets */,
 				87A444E12A8426C40072ECFD /* SDKController.swift */,
-				87A444E62A8426C50072ECFD /* Assets.xcassets */,
 				8767CEBB2A843ACE00CC4A0F /* LaunchScreen.storyboard */,
 				87A444EB2A8426C50072ECFD /* Info.plist */,
 				8767CEBF2A8441E300CC4A0F /* Extensions.swift */,
@@ -159,8 +159,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				8767CEBC2A843ACE00CC4A0F /* LaunchScreen.storyboard in Resources */,
+				87B797622A8B9FE80054B51C /* Assets.xcassets in Resources */,
 				87B797582A8961C80054B51C /* Localizable.strings in Resources */,
-				87A444E72A8426C50072ECFD /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -228,6 +228,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
@@ -288,6 +289,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
