@@ -12,7 +12,7 @@ EXTERNAL SOURCES:
 
 CHECKOUT OPTIONS:
   Marketplace:
-    :commit: f952371408eccfc22c7ca1ee34d70212d2fb5be4
+    :commit: e8d89b69a315552f5890725b10d582e55272c893
     :git: https://github.com/ProsperasTeam/MarketplaceSDKiOS.git
     :tag: 1.0.7
 
